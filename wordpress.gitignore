@@ -1,0 +1,24 @@
+.htaccess
+wp-config.php
+!wp-content/
+# !wp-content/themes/
+# !wp-content/plugins/
+# !wp-content/mu-plugins
+sitemap.xml
+*.log
+sitemap.xml
+sitemap.xml.gz
+
+# ignore these plugins
+# wp-content/plugins/hello.php
+
+# ignore specific themes
+# wp-content/themes/twenty*/
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
